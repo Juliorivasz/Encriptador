@@ -1,0 +1,82 @@
+.texto_encriptado{
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    height: 400px;
+}
+
+.texto_lista{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.primer_texto{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.segundo_texto{
+    font-size: 1.2rem;
+    line-height: normal;
+}
+
+.display-none{
+    display: none;
+}
+
+.estrellas_div{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.estrellas{
+    width: 50vw;
+}
+
+#text{
+    width: 100%;
+    height: 94%;
+    background: none;
+    border: none;
+    font-size: 26px;
+    resize: none;
+    outline: none;
+    word-wrap: break-word;
+}
+
+.textarea_encriptado_boton {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.textarea_encriptada{
+    height: 100%;
+    width: 100%;
+}
+.div-encriptado{
+    width: 100%;
+    height: 90%;
+}
+.display{
+    display: block;
+}
+
+@media screen and (min-width: 700px) {
+    .estrellas{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .texto_encriptado{
+        height: 600px;
+    }
+    .estrellas{
+        width: 50%;
+    }
+    
+}
+

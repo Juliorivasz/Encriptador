@@ -1,0 +1,32 @@
+
+.boton{
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 1rem;
+    border: 1.9px solid var(--color-verde);
+}
+
+.encriptador{
+    background-color: var(--color-verde);
+    color: #fff;
+}
+.desencriptador{
+    background-color: var(--background-de-la-pagina);
+    color: var(--color-verde);;
+}
+
+.boton_li{
+    padding: 10px 0;
+}
+
+.encriptador:hover{
+    background-color: var(--background-de-la-pagina);
+    color: var(--color-verde);
+    cursor: pointer;
+}
+
+.desencriptador:hover{
+    background-color: var(--color-verde);
+    color: #fff;
+    cursor: pointer;
+}

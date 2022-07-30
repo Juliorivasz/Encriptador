@@ -1,0 +1,14 @@
+.footer_div{
+    background-color: #7fffd4;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.link_github{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Ubuntu';
+}
+

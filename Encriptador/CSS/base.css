@@ -1,0 +1,16 @@
+:root{
+    --background-de-la-pagina: #E3FFF1;
+    --color-verde: #04A001;
+    --font-titulo: 'Ubuntu', sans-serif;
+    --color-ceniza: #7D847C;
+}
+body{
+    
+    background: url(../img/b.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: 2rem 1rem -1.2rem 1rem;
+}

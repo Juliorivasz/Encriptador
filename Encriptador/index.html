@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="CSS/base.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/textarea.css" rel="stylesheet">
+    <link href="CSS/boton.css" rel="stylesheet">
+    <link href="CSS/encriptado.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link rel="icon" href="img/estrellita.gif">
+    <title>Encriptador | JulioR</title>
+</head>
+
+<body>
+    <header class="header container">
+        <h1 class="header_titulo">a</h1>
+    </header>
+    <main>
+        <div class="texto_boton_salida">
+            <div class="texto_boton container">
+                <div class="textarea_div">
+                    <textarea class="textarea1" name="textarea" id="t1" placeholder="Ingrese el texto aqui" onkeypress=""></textarea>
+                </div>
+                <section class="container">
+                    <div class="exclamacion_texto">
+                        <img class="img_indicaciones" src="img/signo-de-exclamacion.png"
+                            alt="signo de exclamacion">
+                        <p class="indicaciones"> letras minusculas y sin acentos</p>
+                    </div>
+                    <div class="boton_div">
+                        <ul class="lista_boton">
+                            <li class="boton_li"><input class="boton encriptador" type="button" name="encriptar" id=""
+                                    value="Encriptar"></li>
+                            <li class="boton_li"><input class="boton desencriptador" type="button" name="desencriptar"
+                                    id="" value="Desencriptar"></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <section class="texto_salida container">
+                <div class="texto_encriptado">
+                    <div class="contenido_principal">
+                        <div class="estrellas_div ">
+                            <img src="img/estrellita.gif" alt="estrellas-gif" class="estrellas">
+                        </div>
+                        <ul>
+                            <li class="primer_texto texto_lista">Ningún mensaje fue encontrado </li>
+                            <li class="segundo_texto texto_lista">Ingresa el texto que desees encriptar o desencriptar.</li>
+                        </ul>
+                    </div>
+                    <div class="display-none div-encriptado">
+                        <div class="textarea_encriptada">
+                            <textarea name="texto codificado" id="text" disabled ></textarea>
+                        </div>
+                        <div class="boton_copiar">
+                            <input type="button" name="boton-copiar" class="boton encriptador" value="Copiar" onclick="copiar()">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_div">
+            <a href="https://github.com/Juliorivasz" class="link_github" target="_blank">
+                <h3>&copy Copyrigth - Julio Rivas </h3>
+            </a>
+        </div>
+    </footer>
+    <script src="js/escribir_texto.js"></script>
+</body>
+
+</html>
